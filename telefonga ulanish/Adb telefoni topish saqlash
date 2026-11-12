@@ -1,0 +1,4 @@
+{import ensurepip, subprocess, sys; (ensurepip.bootstrap() if subprocess.run([sys.executable, "-m", "pip", "--version"], capture_output=True).returncode != 0 else None); import subprocess; print(subprocess.run(["adb", "devices"], capture_output=True, text=True).stdout)}
+Bu codeni Ro'yhatdagi bichi chiqqan drive ga ulanasan va buni .drive qilib saqlab olasan 
+.drive
+R8YX9269D9P
